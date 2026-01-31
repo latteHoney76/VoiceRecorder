@@ -1,0 +1,7 @@
+app_identifier("com.hakisung.VoiceRecorder")
+
+for_platform :ios do
+  for_lane :beta do
+    app_identifier("com.hakisung.VoiceRecorder")
+  end
+end

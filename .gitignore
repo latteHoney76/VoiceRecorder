@@ -20,11 +20,17 @@ Pods/
 *.swp
 *~
 
+# Ruby / Bundler
+vendor/bundle
+
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# CI artifacts
+private_keys/
 
 # Archive
 *.ipa
